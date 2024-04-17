@@ -7,7 +7,6 @@ import { useMemo } from "react";
 import {
   CartesianGrid,
   Cell,
-  Legend,
   Line,
   LineChart,
   Pie,
@@ -135,7 +134,7 @@ const Row2 = () => {
               paddingAngle={2}
               dataKey="value"
             >
-              {pieData.map((entry, index) => (
+              {pieData.map((_entry, index) => (
                 <Cell key={`cell-${index}`} fill={pieColors[index]} />
               ))}
             </Pie>

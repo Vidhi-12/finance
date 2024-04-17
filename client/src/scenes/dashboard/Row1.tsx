@@ -12,7 +12,6 @@ import {
   Legend,
   Line,
   LineChart,
-  Rectangle,
   ResponsiveContainer,
   Tooltip,
   XAxis,
